@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Pick class times</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <form action = "{{ url_for('index.show_timetable') }}" method="post">
+        <h1>Welcome!</h1>
+        <p>Please choose your class times</p> 
+        <!-- Add your code to create a list of choices  -->
+        <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_form_checkbox might be useful to set name = integer to index the list -->
+        <!-- Refer to index.html on how to use Jinja templating -->
+        <input class="btn btn-primary" input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
